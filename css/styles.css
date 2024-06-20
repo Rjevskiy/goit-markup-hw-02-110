@@ -37,6 +37,8 @@ button {
 }
 
 /*=========HEADER========*/
+.header{
+    border-bottom: 1px solid #e7e9fc;}
 
 .logo{
     color: #4d5ae5;
@@ -63,6 +65,16 @@ button {
     background: #2e2f42;
     color: #ffff;
 }
+.button-hero{
+    border-radius: 4px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+/*========BENEFISE=========*/
+
+.title-benefise{}
 
 /*=========OUR TEAM========*/
 
