@@ -38,3 +38,39 @@ button {
 
 /*=========HEADER========*/
 
+.logo{
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-span{
+    color: #2e2f42;
+}
+
+/*=========HERO PAGE========*/
+
+.hero{
+    background: #2e2f42;
+    color: #ffff;
+}
+
+/*=========OUR TEAM========*/
+
+.team{
+    background: #f4f4fd;
+}
+
+/*=========FOOTER========*/
+
+.footer{
+    background: #2e2f42;
+    color: #ffff;
+}
+
+.footer-logo {
+    color: #ffff;
+}
