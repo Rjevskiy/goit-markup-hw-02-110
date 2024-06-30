@@ -1,3 +1,4 @@
+/*
 ul,
 ol {
     margin-top: 0;
@@ -36,25 +37,64 @@ button {
     cursor: pointer;
 }
 
+.conteiner{width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
 /*=========HEADER========*/
+/*
 .header{
-    border-bottom: 1px solid #e7e9fc;}
+    display: flex;
+    gap: 76px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc;
+    color: #2e2f42;}
 
 .logo{
+    padding-top: 24px;
+    padding-bottom: 24px;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.167;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 .logo-span{
     color: #2e2f42;
 }
 
-/*=========HERO PAGE========*/
+.menu {
+    gap: 40px;
+    display: flex;
+}
 
+.menu-link:hover,
+.menu-link:focus,
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf;
+}
+
+.address{
+    display: flex;
+    gap: 40px;
+    color: #2e2f42;
+}
+
+
+/*=========HERO PAGE========*/
+/*
 .hero{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -63,27 +103,30 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     background: #2e2f42;
-    color: #ffff;
+    color: #ffff; 
 }
 .button-hero{
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+    width: 169px;
+    height: 56px;
+    padding: 0; 
 }
 
 /*========BENEFISE=========*/
-
+/*
 .title-benefise{}
 
 /*=========OUR TEAM========*/
-
+/*
 .team{
     background: #f4f4fd;
 }
 
 /*=========FOOTER========*/
-
+/*
 .footer{
     background: #2e2f42;
     color: #ffff;
